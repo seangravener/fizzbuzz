@@ -31,5 +31,5 @@ const fizzBuzz = class {
   }
 };
 
-const fb = new fizzBuzz(2, 3);
+const fb = new fizzBuzz();
 document.getElementById("app").innerHTML = `<p>answer:</p> ${fb.answerList}`;
